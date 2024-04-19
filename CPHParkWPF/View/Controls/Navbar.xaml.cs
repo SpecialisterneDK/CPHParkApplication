@@ -44,9 +44,11 @@ public partial class Navbar : UserControl {
         Page page = new ReportPage();
         navigationService.Navigate(page);
     }
+    /*
     private void MoveToRemarkPage(object sender, RoutedEventArgs e) {
         NavigationService navigationService = NavigationService.GetNavigationService(Parent);
         //Page page = new RemarkPage();
         //navigationService.Navigate(page);
     }
+    */
 }

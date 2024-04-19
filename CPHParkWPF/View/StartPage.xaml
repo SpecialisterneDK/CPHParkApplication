@@ -21,5 +21,24 @@
         </Grid.ColumnDefinitions>
 
         <controls:Navbar Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+        <TextBlock Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" xml:space="preserve">
+    Velkommen, dette program fungere som en brugergrænseflade ovenpå cphpark programmet.
+    Dette progrma spørger efter en række filer for at kunne køre de forskellige funktioner, nogle er ligetil,
+    men andre er ikke lige til at gennemskue, så her er en forklaring.
+            
+    I "Initialization" bliver der spurgt om fire ting, hvor cphpark .exe filen ligger, hvilken mappe JSON filen, programmet laver skal ligge i, 
+    hvad JSON filen skal hedde og hvor filen over alle veje i københavn ligger.
+    Filen over københavnske veje er lavet manuelt af Rasmus Ladekjær Pedersen, så spørg ham om den.
+            
+    I "Migration" bliver der igen spurgt efter cphpark .exe filen, men den burde allerede vide hvor den ligger efter du har kørt "initialization".
+    Derudover skal du angive den JSON fil der blev lavet i "initialization" og hvilken ALT_ALLE excel fil du vil migrere fra.
+    
+    "Add" skal igen bruge .exe filen, og JSON filen og så folderen hvor alle filerne med tællinger ligger.
+    "Add" kører ekstremt langsomt og vil nok tage over 20 minutter at køre alle filerne igennem.
+            
+    I "Report" burde det allerede være indsat hvor cphpark .exe filen og JSON filen ligger, men du skal nok angive hvor du vil have rapporten skrevet ud.
+    Du skal også vælge hvilken type rapport du vil have og hvad den skal hedde.
+        </TextBlock>
     </Grid>
 </Page>
